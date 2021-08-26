@@ -1,0 +1,38 @@
+{
+    "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.0",
+    "version": "1.0.0",
+    "id": "%Microsoft App ID%",
+    "packageName": "kenn3.samples.sampleapp1",
+    "developer": {
+        "name": "kenn3",
+        "websiteUrl": "https://qiita.com/KenN3",
+        "privacyUrl": "https://qiita.com/KenN3",
+        "termsOfUseUrl": "https://qiita.com/KenN3"      
+    },
+    "name": {
+        "short": "サンプルアプリ",
+        "full": "ウェブサイトを表示するだけのサンプルアプリ"
+    },
+    "description": {
+        "short": "アプリの解説です。",
+        "full": "アプリの解説のロングバージョンです。"
+    },
+    "icons": {
+        "outline": "icon20x20.png",
+        "color": "icon96x96.png"
+    },
+    "accentColor": "#60A18E",
+    "configurableTabs": [
+        {
+            "configurationUrl": "%設定画面のURL%",
+            "canUpdateConfiguration": true,
+            "scopes": [
+                "team"
+            ]
+        }
+    ],   
+    "validDomains": [
+        "%設定画面とコンテンツのドメイン%"
+    ]
+}
